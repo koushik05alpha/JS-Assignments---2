@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius to Fahrenheit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Converts Temperature Values</h1>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h2>Celsius to Fahrenheit</h2>
+            <input type="text" id="input-one" placeholder="Enter Celsius">
+            <h3>Fahrenheit is = <span id="output-one"></span></h3>
+            <button type="submit" onclick="findFahrenheit()">Count On</button>
+            <button class="reset" onclick="resetFahrenheit()">Reset</button>
+        </div>
+
+        <div class="box">
+            <h2>Fahrenheit to Celsius</h2>
+            <input type="text" id="input-two" placeholder="Enter Fahrenheit">
+            <h3>Celsius is = <span id="output-two"></span></h3>
+            <button type="submit" onclick="findCelsius()">Count On</button>
+            <button class="reset" onclick="resetCelsius()">Reset</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright By @<a href="https://www.facebook.com/koushik05alpha/" target="_blank">Koushik05alpha</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
